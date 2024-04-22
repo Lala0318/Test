@@ -1,0 +1,164 @@
+body{
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.primer-nav{
+    background-color: rebeccapurple;
+    height: 90px;
+    width: 100%;
+}
+nav:hover{
+    position: relative;
+    left: 50px;
+    transition-duration: 1s;
+    background-color: aqua;
+}
+.nav-title{
+    position: absolute;
+    color: white;
+    top: 18px;
+    left: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+a{
+    position: relative;
+    color: white;
+    text-decoration: none;
+    top: 53px;
+    font-size: 13px;
+    padding: 10px;
+}
+h3{
+    position: relative;
+    left: 36px;
+}
+h3:hover{
+    color: orange;
+    font-size: 30px;
+    transition-duration: 1s;
+}
+.div-lorem{
+    position: relative;
+    left: 36px;
+    padding-right: 30px;
+    font-size: 13px;
+}
+.cajas{
+    position: relative;
+    background-color: rgb(189, 130, 238);
+    height: 142px;
+    width: 90%;
+    border-radius: 30px;
+    left: 50px;
+}
+.azul{
+    position: absolute;
+    background-color: blue;
+    width: 150px;
+    height: 120px;
+    border-radius: 20px;
+    top: 10px;
+    text-align: center;
+    left: 60px;
+    color: white;
+}
+
+.azul:hover{
+    color: aqua;
+    transition-duration: 1s;
+    padding: 10px 10px 10px 10px;
+}
+.verde:hover{
+    color: aqua;
+    transition-duration: 1s;
+    padding: 10px 10px 10px 10px;
+}
+.rojo:hover{
+    color: aqua;
+    transition-duration: 1s;
+    padding: 10px 10px 10px 10px;
+}
+.verde{
+    position: absolute;
+    background-color: green;
+    width: 150px;
+    height: 120px;
+    border-radius: 20px;
+    top: 10px;
+    left: 230px;
+    text-align: center;
+    color: white;
+}
+.rojo{
+    position: absolute;
+    background-color: red;
+    width: 150px;
+    height: 120px;
+    border-radius: 20px;
+    top: 10px;
+    left: 400px;
+    text-align: center;
+    color: white;
+}
+.title{
+    position: relative;
+    top: 10px;
+    font-size: 16px;
+    font-weight: bolder;
+}
+.texto{
+    position: relative;
+    font-size: 13px;
+    top: 10px;
+}
+.contacto{
+    position: absolute;
+    text-align: center;
+    color: white;
+    background-color: rgb(56, 55, 55);
+    height: 90px;
+    width: 100%;
+    bottom: 0px;
+}
+.text{
+    position: relative;
+    top: 30px ;
+}
+
+@media screen and (max-width:600px){
+    .primer-nav{
+        background-color: blue;
+    }
+    .nav-title{
+        display: none;
+    }
+    .azul{
+        width: 130%;
+        left: -30px;
+        
+    }
+    .cajas{
+        background-color: white;
+    }
+    .verde{
+        width: 130%;
+        top: 130px;
+        left: -30px;
+    }
+    .rojo{
+        width: 130%;
+        left: -30px;
+        top: 250px;
+    }
+    .texto{
+        top: 205x;
+    }
+    a{
+        top: 10px;
+        left: 15px;
+        display: block;
+        padding: 0px;
+    }
+}
